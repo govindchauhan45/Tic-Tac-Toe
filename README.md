@@ -31,7 +31,7 @@ https://www.python.org/
 1. Download or clone the repository
 
 ```
-git clone https://github.com/yourusername/tic-tac-toe-python.git
+git clone https://github.com/govindchauhan45/tic-tac-toe-python.git
 ```
 
 2. Go to the project folder
