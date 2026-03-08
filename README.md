@@ -1,122 +1,102 @@
-❌⭕ Terminal Tic-Tac-Toe
+# Tic Tac Toe Game (Python)
 
-"THE GRID AWAITS… WHO WILL CLAIM VICTORY?"
+## 📌 Overview
 
-A dynamic terminal-based Tic-Tac-Toe game in Python. Play against the computer or a friend in a sleek CLI experience with animations and colorful prompts.
+This is a simple **Tic Tac Toe game implemented in Python** that runs in the command line.
+Two players take turns marking spaces in a **3×3 grid**. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
 
-🚀 Features
-🎨 Interactive CLI Gameplay
+---
 
-Terminal-based Tic-Tac-Toe board with grid visuals
+## 🚀 Features
 
-Real-time updates after each move
+* Two-player gameplay
+* Command-line interface
+* Input validation
+* Win and draw detection
+* Simple and beginner-friendly Python code
 
-Player vs Player or Player vs Computer mode
+---
 
-Highlight winning combination dynamically
+## 🛠 Requirements
 
-Clear prompts and user-friendly interface
+* Python 3.x
 
-🏆 Gameplay
+You can download Python from:
+https://www.python.org/
 
-Play against a friend or the computer
+---
 
-Switch turns automatically
+## ▶️ How to Run the Game
 
-Detects wins, ties, and invalid moves
+1. Download or clone the repository
 
-Beginner-friendly Python project
+```
+git clone https://github.com/yourusername/tic-tac-toe-python.git
+```
 
-📜 Game Rules
+2. Go to the project folder
 
-2 players take turns marking the grid (X or O)
+```
+cd tic-tac-toe-python
+```
 
-First to align 3 marks horizontally, vertically, or diagonally wins
+3. Run the Python file
 
-If the grid fills without a winner, the game is a tie
-
-Input is via grid positions (1-9)
-
-💻 Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/yourusername/terminal-tic-tac-toe.git
-cd terminal-tic-tac-toe
-2️⃣ Install Python (if not installed)
-
-Make sure Python 3.x is installed.
-
-3️⃣ Run the Game
+```
 python tic_tac_toe.py
-🎮 Example Gameplay
-Welcome to Terminal Tic-Tac-Toe!
-Choose mode: 1) Player vs Player  2) Player vs Computer: 2
+```
 
-Player X, enter your move (1-9): 5
-Current Board:
- 1 | 2 | 3
----+---+---
- 4 | X | 6
----+---+---
- 7 | 8 | 9
+---
 
-Computer chose: 1
-Current Board:
- O | 2 | 3
----+---+---
- 4 | X | 6
----+---+---
- 7 | 8 | 9
+## 🎮 How to Play
 
-Player X, enter your move (1-9): 9
-Current Board:
- O | 2 | 3
----+---+---
- 4 | X | 6
----+---+---
- 7 | 8 | X
+1. The game board has **9 positions (1–9)**.
+2. Player 1 uses **X** and Player 2 uses **O**.
+3. Players enter a number (1-9) to place their mark.
+4. The first player to align **3 marks in a row** wins.
+5. If all spaces are filled with no winner, the game ends in a **draw**.
 
-Player X wins! 🎉
-⚙️ How It Works
+Example board positions:
 
-Board Representation: 3x3 grid using a Python list
+```
+1 | 2 | 3
+---------
+4 | 5 | 6
+---------
+7 | 8 | 9
+```
 
-Player Input: Number 1-9 for position
+---
 
-Game Logic: Checks for wins, ties, and valid moves
+## 📂 Project Structure
 
-Computer AI: Random move selection (can be enhanced with strategy)
+```
+tic-tac-toe-python/
+│
+├── main.py   # Main game code
+└── README.md        # Project documentation
+```
 
-Animations: Board refreshes dynamically after each move
+---
 
-🛠 Tech Stack
+## 📖 Learning Purpose
 
-Language: Python 3.x
+This project is great for beginners learning:
 
-Modules: random, time, sys (for optional animations)
+* Python basics
+* Loops and conditionals
+* Lists
+* Functions
+* Game logic
 
-🔮 Future Improvements
+---
 
-Smarter computer AI using minimax algorithm
+## 👨‍💻 Author
 
-Scoreboard for multiple rounds
+Govind Singh
 
-Visual enhancements with ASCII art or colors
+---
 
-Multiplayer mode over network / socket programming
+## 📜 License
 
-Terminal animations for “thinking” moves
-
-👨‍💻 Author
-
-Govind Chauhan
-Python Developer | AI / ML Enthusiast | CLI Games Creator
-
-GitHub: govindchauhan45
-
-Email: govindsingh.dsai@gmail.com
-
-⚡ System Status
-GAME STATUS: ONLINE
-PLAYER MODE: READY
-BOARD: ACTIVE
-COMPUTER AI: READY
+This project is open-source and free to use.
